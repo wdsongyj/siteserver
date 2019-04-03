@@ -1,0 +1,52 @@
+﻿html,body,h1,h2,h3,h4,h5,h6,hr,p,iframe,dl,dt,dd,ul,ol,li,pre,form,button,input,textarea,th,td,fieldset{margin:0;padding:0}
+section{ padding:0; margin:0; display:block}
+ul,li,ol,dl{list-style-type:none}
+html{font-family: sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; background-color:#fff}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:400}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+input,button{overflow: visible;vertical-align:middle;outline:none}
+body{line-height:1.6; font-size:14px; background-color:#fff;}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+a{text-decoration:none;cursor: pointer; color:#333}
+a:hover{text-decoration:none;}
+sub,sup{vertical-align:baseline}
+button,input[type="button"], input[type="submit"] {line-height:normal; cursor:pointer}
+img{border:0;max-width:100%}
+body{font-family: "Microsoft Yahei", "Simsun", Arial, sans-serif;line-height: 1.5; color:#333; }
+div{display:block}
+input, button, textarea, select, optgroup, option, i, em {font-family: inherit;font-size: inherit;font-style: inherit;}
+.clearfix:after,.wrap:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix,.wrap{display:block;*zoom:1}
+.fl{ float:left;}
+.fr{ float:right}
+.block{ display:block;}
+.fixed{ position:fixed; top:0; left:0; right:0; z-index:99}
+.btn{ display:inline-block; text-align:center; border-radius:3px; border:1px solid transparent; white-space:nowrap;overflow:hidden; cursor:pointer}
+
+.wrap{ width:1200px; margin:0 auto}
+
+.mod{}
+.mod-hd {position: relative; overflow:hidden; }
+.mod-hd .tit {font-size: 18px;color: #4c4c4c;line-height: 50px;font-weight: normal; padding:0 10px;}
+
+
+.mask-text{ background-color:rgba(0,0,0,0.6); height:30px; position:absolute; width:100%; left:0px; bottom:0px; color:#fff;}
+.mask-bg{ background-image: -webkit-linear-gradient(rgba(0,0,0, 0) 0, rgba(0,0,0, 1) 100%);height:40px; position:absolute; width:100%; left:0px; bottom:0px; color:#fff;}
+
+
+/*页码*/
+#fenye{clear:both;margin:15px 0;height:35px; text-align:center; }
+#fenye table{ width:100%}
+#fenye img{ vertical-align:inherit}
+#fenye a,#fenye span{text-decoration:none; font-size:14px;height:30px;display:inline-block; text-align:center; 
+line-height:30px;color:#666;border: 1px solid #ccc;padding:0 10px; font-size:12px; margin:0 2px;background:#fff; border-radius:3px; }
+#fenye a.curr{background-color: #EFEFEF; cursor:default;}
+#fenye a:hover{color:#333; background-color: #EFEFEF; }
+#fenye span em{ margin-left:5px;}
+
+
+.footer{ color:#ccc; text-align:center; padding:10px 0;}
+
+
+
+

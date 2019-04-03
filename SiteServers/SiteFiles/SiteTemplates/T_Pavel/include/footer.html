@@ -1,0 +1,68 @@
+<footer id="footer" class="clearfix">
+  <!-- .footer start -->
+  <div class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="footer-content">
+              <div class="logo-footer"><img id="logo-footer" src="{stl.siteurl}/images/logot.png" alt=""></div>
+              <p>互联网科技技术为您提供优质满意的服务。</p>
+              <div class="separator-2"></div>
+              <ul class="list-inline mb-20">
+                <li><i class="text-default fa fa-map-marker pr-5"></i> {stl:value type=Address}</li>
+                <li><i class="text-default fa fa-phone pl-10 pr-5"></i> {stl:value type=iPhone}</li>
+                <li><a href="mailto:sales@microtechmd.com" class="link-dark"><i class="text-default fa fa-envelope-o pl-10 pr-5"></i> {stl:value type=Email}</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="footer-content">
+              <h2 class="title">联系我们</h2>
+              <div class="alert alert-success hidden" id="MessageSent2">
+                感谢您的信息，我们将尽快答复。
+              </div>
+              <div class="alert alert-danger hidden" id="MessageNotSent2">
+                抱歉，服务器开小差了，请刷新并重试。
+              </div>
+              <stl:input inputName="联系我们">
+                <form role="form" id="footer-form" class="margin-clear">
+                  <div class="form-group has-feedback mb-10">
+                    <label class="sr-only" for="name2">姓名</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="姓名" isValidate="true" displayName="姓名" isRequire="true" minNum="2" maxNum="0" validateType="Chinese" regExp="" errorMessage="请输入姓名">
+                    <span id="name_msg" style="color:red;display:none;">*</span><script>event_observe('name', 'blur', checkAttributeValue);</script>
+                    <i class="fa fa-user form-control-feedback"></i>
+                  </div>
+                  <div class="form-group has-feedback mb-10">
+                    <label class="sr-only" for="email2">邮箱地址</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="电子邮箱" isValidate="true" displayName="电子邮箱" isRequire="true" minNum="0" maxNum="0" validateType="Email" regExp="" errorMessage="请输入正确的电子邮箱" >
+                    <span id="email_msg" style="color:red;display:none;">*</span><script>event_observe('email', 'blur', checkAttributeValue);</script>
+                    <i class="fa fa-envelope form-control-feedback"></i>
+                  </div>
+                  <div class="form-group has-feedback mb-10">
+                    <label class="sr-only" for="message2">请输入消息</label>
+                    <textarea class="form-control" rows="4" id="advice" name="advice" placeholder="您的建议" isValidate="true" displayName="您的建议" isRequire="true" minNum="5" maxNum="0" validateType="Chinese" regExp="" errorMessage="请输入详细内容"></textarea>
+                    <span id="advice_msg" style="color:red;display:none;">*</span> <script>event_observe('advice', 'blur', checkAttributeValue);</script>
+                    <i class="fa fa-pencil form-control-feedback"></i>
+                  </div>
+                  <input id="submit" type="button" value="发送" class="margin-clear submit-button btn btn-default">
+                </form>
+              </stl:input>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- .footer end -->
+  <!-- .subfooter start -->
+  <div class="subfooter" style="background-color:#FFFFFF">
+    <div class="container">
+      <div class="subfooter-inner">
+        <div class="row"><div class="col-md-12"><p class="text-center">Copyright © 2018 SiteServer CMS</p></div></div>
+      </div>
+    </div>
+  </div>
+  <!-- .subfooter end -->
+</footer>
+​

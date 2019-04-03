@@ -1,0 +1,11 @@
+
+/* Ωπµ„Õº */
+.focus{width:760px;height:430px;position:relative;overflow:hidden; background:#000}
+.f426x240{width:760px;height:430px;}
+.f426x240 img{width:760px;height:430px}
+
+.rslides{width:100%;position:relative;list-style:none;padding:0}
+.rslides_nav{height:100px;width:78px;position:absolute;-webkit-tap-highlight-color:rgba(0,0,0,0);top:50%;left:0;opacity:0.5;text-indent:-9999px;overflow:hidden;text-decoration:none;background:url(left-arrow.png) no-repeat;margin-top:-40px}
+.rslides_nav:active{opacity:1.0}
+.rslides_nav.next{left:auto;background:url(right-arrow.png) no-repeat;right:0}
+.rslides_tabs{ display:none; height:0px}

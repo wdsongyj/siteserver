@@ -1,0 +1,26 @@
+/* Caution! Ensure accessibility in print and other media types... */
+@media projection, screen { /* Use class for showing/hiding tab content, so that visibility can be better controlled in different media types... */
+    .ui-tabs-hide {
+        display: none;
+    }
+}
+/* Hide useless elements in print layouts... */
+@media print {
+    .ui-tabs-nav {
+        display: none;
+    }
+}
+
+/* Skin */
+.ui-tabs-nav a, .ui-tabs-nav a span{
+  
+	width:24px; height:24px;background:url(numbg2.png) no-repeat; float:left; margin-right:5px; text-align:center;color:#fff; line-height:24px;font-size:14px;
+}
+.ui-tabs-nav .ui-tabs-selected a span{
+    background:url(numbg1.png) no-repeat
+}
+#rotate{ position:absolute;width:400px;left:550px;top:368px}
+#fragment-1{ text-align:center; background:#453e9f}
+#fragment-1 img{ margin-left:110px}
+#fragment-2{ text-align:center; background:#e5dac8}
+#fragment-2 img{ margin-left:30px}

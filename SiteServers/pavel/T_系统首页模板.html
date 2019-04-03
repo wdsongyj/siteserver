@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html lang="en" class="ie9"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{Channel.Title} - {Stl.SiteName}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="{Stl.SiteUrl}/css/favicon.ico" />
+    <link href="{Stl.SiteUrl}/css/bootstrap.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/font-awesome.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/fontello.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/magnific-popup.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/settings.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/animations.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/owl.carousel.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/owl.transitions.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/hover-min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" >
+    <link href="css/cool_green.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+  </head>
+  <body class="no-trans front-page">
+    <div class="scrollToTop circle"><i class="icon-up-open-big"></i></div>
+    <div class="page-wrapper">
+      <stl:include file="/include/header.html"></stl:include>
+      <div id="banner" class="banner clearfix">
+        <div class="slideshow">
+          <div class="slider-banner-container">
+            <div class="slider-banner-fullwidth-big-height">
+              <ul class="slides">
+                <stl:contents channelIndex="Banner" totalNum="5">
+                  <li data-transition="fade" data-slotamount="4" data-masterspeed="500" data-saveperformance="on">
+                    <img src="{Content.ImageUrl}" alt="slidebg2" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover">
+                    <div class="tp-caption fade fadeout dark-translucent-bg caption-box text-left"
+                    style="background-color: rgba(0, 0, 0, 0.45);"
+                    data-x="right"
+                    data-y="bottom"
+                    data-speed="500"
+                    data-start="1300"
+                    data-easing="easeOutQuad"
+                    data-endspeed="600">
+                      <h2 class="title"><stl:a class="link-light">{Content.Title}</stl:a></h2>
+                      <div class="separator-2 light clearfix hidden-xs"></div>
+                      <p class="hidden-xs"><stl:content type="Summary" wordNum="38" ellipsis="..."></stl:content></p>
+                      <div class="text-right hidden-xs"><stl:a class="btn btn-small btn-default margin-clear">查看更多</stl:a></div>
+                    </div>
+                    </li>
+                    </stl:contents>
+                    </ul>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                      <div id="page-start"></div>
+                      <section class="section clearfix">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <h3><span class="text-default">新闻</span></h3>
+                              <div class="separator-2"></div>
+                              <div class="block">
+                                <stl:contents channelIndex="新闻动态" isRecommend="false" totalNum="3" order="AddDate">
+                                  <div class="media margin-clear">
+                                    <div class="media-left">
+                                      <div class="overlay-container">
+                                        <img class="media-object" src="{Content.ImageUrl}" alt="{Content.ImageUrl}">
+                                        <stl:a class="overlay-link small"><i class="fa fa-link"></i></stl:a>
+                                      </div>
+                                    </div>
+                                    <div class="media-body">
+                                      <h5 class="media-heading"><stl:a><stl:content type="Title" wordNum="50" ellipsis="..."></stl:content></stl:a></h5>
+                                      <p class="small"><i class="fa fa-calendar pr-10"></i><stl:content type="AddDate" formatString="yyyy/MM/dd"></stl:content></p>
+                                      <p class="margin-clear small"><stl:content type="Summary" wordNum="65" ellipsis="..."></stl:content></p>
+                                    </div>
+                                    <hr>
+                                  </div>
+                                </stl:contents>
+                              </div>
+                            </div>
+                            <div class="col-md-3">
+                              <h3><span class="text-default">活动</span></h3>
+                              <div class="separator-2"></div>
+                              <stl:contents totalNum="2" channelIndex="活动" order="AddDate">
+                                <div class="small"><i class="fa fa-calendar pr-10"></i><stl:content type="AddDate" formatString="yyyy/MM/dd"></stl:content></div>
+                                <h5><stl:a><stl:content type="Title" wordNum="30"  ellipsis="..."></stl:content></stl:a></h5>
+                                <p class="small"><stl:content type="Summary" wordNum="40" ellipsis="..."></stl:content></p>
+                                <hr>
+                              </stl:contents>
+                              
+                            </div>
+                            <div class="col-md-3">
+                              <h3><span class="text-default">往期活动</span></h3>
+                              <div class="separator-2"></div>
+                              <div class="owl-carousel content-slider-with-large-controls-autoplay dark-controls light-gray-bg buttons-hide">
+                                <stl:contents totalNum="5" channelIndex="新闻动态" isRecommend="true" isImage="true">
+                                  <div class="image-box style-2">
+                                    <div class="overlay-container overlay-visible">
+                                      <img src="{Content.ImageUrl}" alt="{Content.ImageUrl}">
+                                      <div class="overlay-bottom">
+                                        <div class="text">
+                                          <p class="lead margin-clear text-left mobile-visible"></p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="body padding-horizontal-clear">
+                                      <p><stl:content type="Title" wordNum="35" ellipsis="..."></stl:content></p>
+                                      <stl:a class="link-dark">更多<i class="pl-5 fa fa-angle-double-right"></i></stl:a>
+                                    </div>
+                                  </div>
+                                </stl:contents>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section class="section pv-40 light-gray-bg clearfix">
+                        <div class="container">
+                          <stl:contents channelIndex="关于我们" totalNum="1">
+                            <h3><span class="text-default">{Channel.Title}</span></h3>
+                            <div class="separator-2"></div>
+                            <div class="row mb-20">
+                              <div class="col-lg-6">
+                                <img src="{Content.ImageUrl}" alt="{Content.ImageUrl}">
+                              </div>
+                              <div class="col-lg-6">
+                                <h3>{Channel.Title}</h3>
+                                <stl:content type="Summary" wordNum="350" ellipsis="..."></stl:content>
+                              </div>
+                            </div>
+                          </stl:contents>
+                        </div>
+                      </section>
+                      <section class="section pv-15 clearfix">
+                        <div class="container">
+                          <br><br>
+                        </div>
+                      </section>
+                      <stl:include file="/include/footer.html"></stl:include>
+                    </div>
+                      <stl:include file="/include/js.html"></stl:include>
+                    </body>
+                    </html>
+                      

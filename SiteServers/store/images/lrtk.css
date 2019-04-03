@@ -1,0 +1,15 @@
+#zSlider{margin:0px auto; width:980px; overflow:hidden;margin-top:10px;}
+#picshow{position:relative;}
+#picshow,#picshow_img{width:710px; height:360px; overflow:hidden; float:left;}
+#picshow_img li{width:100%; height:100%; overflow:hidden; float:left; display:none;}
+#picshow_img img{width:100%; height:100%}
+#select_btn{width:260px; height:360px; color:#111; float:right; display:inline; background-color:#f0f0f0;}
+#select_btn li{padding:9px 11px 0px 9px; height:60px; border-top:1px solid #fff; cursor:pointer;}
+#select_btn li:hover{background-color:#25a7dd;}
+#select_btn li.current{background-color:#25a7dd;color:#fff;}
+#select_btn li.current:hover{background-color:#25a7dd;}
+#select_btn li.current a{color:#fff;}
+#select_btn img{width:70px; height:49px; margin-right:10px; float:left;}
+#select_btn .select_text{ height:20px; font-size:15px;font-weight:bold;font-family:"\5FAE\8F6F\96C5\9ED1"; overflow:hidden; display:block;}
+#select_btn .select_text:hover{text-decoration:underline;}
+#select_btn .select_date{ height:23px; line-height:23px; overflow:hidden; display:block;}

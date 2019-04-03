@@ -1,0 +1,1 @@
+var DummyParser=Editor.Parser=function(){function n(n){for(;!n.endOfLine();)n.next();return"text"}return{make:function(e){e=tokenizer(e,n);var t=0,r={next:function(){var n,r=e.next();return"whitespace"==r.type&&("\n"==r.value?r.indentation=(n=t,function(){return n}):t=r.value.length),r},copy:function(){var u=t;return function(i){return t=u,e=tokenizer(i,n),r}}};return r}}}();

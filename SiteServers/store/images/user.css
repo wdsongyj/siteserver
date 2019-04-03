@@ -1,0 +1,25 @@
+/* CSS Document */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,p,blockquote,th,td,figure{margin:0;padding:0;}
+ li{list-style-type:none}
+  ul{margin:0px;padding:0px}
+ img{border:0px;}
+ a{text-decoration:none;color:#333;}
+ a:hover{text-decoration:underline}
+body{ font-family:"ËÎÌו";font-size:12px;background:#eee}
+body a:hover{color:#0C800E;}
+h4{font-size:14px;color:#333}
+font{font-size:12px}
+.l{ float:left}
+.r{ float:right}
+.clear{ clear:both;}
+.more{ float:right;margin-right:10px;color:#666}
+.more a{color:#666}
+
+
+
+
+
+
+
+
+

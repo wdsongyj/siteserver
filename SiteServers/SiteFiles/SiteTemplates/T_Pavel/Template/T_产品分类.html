@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html lang="en" class="ie9"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <title>{Stl.SiteName}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{Stl.SiteUrl}/css/bootstrap.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/font-awesome.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/fontello.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/magnific-popup.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/animations.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/owl.carousel.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/owl.transitions.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/hover-min.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/style.css" rel="stylesheet" >
+    <link href="{Stl.SiteUrl}/css/cool_green.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/custom.css" rel="stylesheet">
+  </head>
+  <body class="no-trans">
+    <div class="scrollToTop circle"><i class="icon-up-open-big"></i></div>
+    <div class="page-wrapper">
+      <stl:include file="/include/header.html"></stl:include>
+      <div class="breadcrumb-container">
+        <div class="container">
+          <ol class="breadcrumb">
+            <li><i class="fa fa-home pr-10"></i><a href="{Stl.SiteUrl}/index.html">首页</a></li>
+            <li class="active">{Channel.Title}</li>
+          </ol>
+        </div>
+      </div>
+      <section class="main-container" >
+        <div class="container">
+          <div class="row">
+            <div class="main col-md-9">
+              <h1 class="page-title">{Channel.Title}</h1>
+              <div class="separator-2"></div>
+              <div id="header-1">
+                <stl:contents totalNum="1">
+                  <h2 class="space-top">{Content.Title}</h2>
+                  <div class="separator-2"></div>
+                  <stl:content type="Content"></stl:content>
+                </stl:contents>
+              </div>
+            </div>
+            <aside class="col-md-3">
+              <div class="sidebar">
+                <nav class="affix-menu scrollspy">
+                  <ul class="smooth-scroll nav nav-pills nav-stacked">
+                    <stl:channels channelIndex="产品分类">
+                      <stl:if type="UpChannelOrSelf">
+                        <stl:yes>
+                          <li class="active"><stl:a>{Channel.Title}</stl:a></li>
+                        </stl:yes>
+                        <stl:no>
+                          <li><stl:a>{Channel.Title}</stl:a></li>
+                        </stl:no>
+                      </stl:if>
+                    </stl:channels>
+                  </ul>
+                </nav>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <div class="dark-bg  default-hovered footer-top animated-text">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12"><div class="call-to-action text-center"><div class="row"><div class="col-sm-8"></div><div class="col-sm-4"></div></div></div></div>
+          </div>
+        </div>
+      </div>
+      <stl:include file="/include/footer.html"></stl:include>
+    </div>
+    <stl:include file="/include/js.html"></stl:include>
+  </body>
+</html>

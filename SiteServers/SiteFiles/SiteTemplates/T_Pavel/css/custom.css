@@ -1,0 +1,54 @@
+
+
+
+.dropdown-menu,
+body,button, input, select,textarea, sidebar, h1, h2, h3, h4, h5, h6{ font-family: Microsoft YaHei,Helvetica, Arial, sans-serif;}
+
+
+
+.logo {
+	margin: 10px 10px 10px 0;
+	
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.logo, {
+	float: left;
+}
+
+
+
+
+.fixed-header-on .header {
+	background-color: rgba(0, 0, 0, 0.95);
+	padding:  0;
+}
+
+
+
+.fixed-header-on .logo {
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+
+
+.main-navigation .navbar-default .navbar-nav > li > a {
+	
+	padding: 10px,20px;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+
+.main-navigation .navbar-default .navbar-nav > li > a { font-family: Microsoft YaHei;}
+
+
+

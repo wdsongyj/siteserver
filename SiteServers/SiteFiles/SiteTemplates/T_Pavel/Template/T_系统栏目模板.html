@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html lang="en" class="ie9"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <title>{Channel.Title} - {Stl.SiteName}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{Stl.SiteUrl}/css/bootstrap.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/font-awesome.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/fontello.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/magnific-popup.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/animations.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/owl.carousel.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/owl.transitions.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/hover-min.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/style.css" rel="stylesheet" >
+    <link href="{Stl.SiteUrl}/css/cool_green.css" rel="stylesheet">
+    <link href="{Stl.SiteUrl}/css/custom.css" rel="stylesheet">
+  </head>
+  <body class="no-trans">
+    <div class="scrollToTop circle"><i class="icon-up-open-big"></i></div>
+    <div class="page-wrapper">
+      <stl:include file="/include/header.html"></stl:include>
+      <div class="breadcrumb-container">
+        <div class="container">
+          <ol class="breadcrumb">
+            <li><i class="fa fa-home pr-10"></i><a href="{Stl.SiteUrl}/index.html">首页</a></li>
+            <li class="active">{Channel.Title}</li>
+          </ol>
+        </div>
+      </div>
+      <section class="main-container">
+        <div class="container">
+          <div class="row">
+            <div class="main col-md-8 col-lg-offset-1 col-md-push-4 col-lg-push-3">
+              <h1 class="page-title">{Channel.Title}</h1>
+              <div class="separator-2"></div>
+              <stl:pageContents pageNum="5" order="AddDate">
+                <article class="blogpost">
+                  <div class="row grid-space-10">
+                    <div class="col-md-6">
+                      <img src="{Content.ImageUrl}" alt="{Content.ImageUrl}">
+                    </div>
+                    <div class="col-md-6">
+                      <header>
+                        <h2><stl:a><stl:content type="Title" wordNum="33" ellipsis="..."></stl:content></stl:a></h2>
+                        <div class="post-info">
+                          <span class="post-date">
+                            <i class="icon-calendar"></i>
+                            <span class="day"><stl:content type="AddDate" formatString="yyyy/MM/dd"></stl:content></span>
+                          </span>
+                        </div>
+                      </header>
+                      <div class="blogpost-content">
+                        <p><stl:content type="Summary" wordNum="45" ellipsis="..."></stl:content></p>
+                      </div>
+                    </div>
+                  </div>
+                  <footer class="clearfix">
+                  </footer>
+                </article>
+              </stl:pageContents>
+              <nav>
+                <ul class="pagination">
+                  <stl:pageItem type="PreviousPage">
+                    <stl:yes>
+                      <li><a href="{Current.Url}" aria-label="Previous"><i class="fa fa-angle-left"></i></a></li>
+                    </stl:yes>
+                    <stl:no>
+                      <li><a href="javascript:;" aria-label="Previous"><i class="fa fa-angle-left"></i></a></li>
+                    </stl:no>
+                  </stl:pageItem>
+                  
+                  <stl:pageItem type="PageNavigation" listNum="5">
+                    <stl:yes>
+                      <li><a href="{Current.Url}">{Current.Num}</a></li>
+                    </stl:yes>
+                    <stl:no>
+                      <li class="active"><a>{Current.Num}</a></li>
+                    </stl:no>
+                  </stl:pageItem>
+                  
+                  <stl:pageItem type="NextPage">
+                    <stl:yes>
+                      <li><a href="{Current.Url}" aria-label="Next"><i class="fa fa-angle-right"></i></a></li>
+                    </stl:yes>
+                    <stl:no>
+                      <li><a href="javascript:;" aria-label="Next"><i class="fa fa-angle-right"></i></a></li>
+                    </stl:no>
+                  </stl:pageItem>
+                </ul>
+              </nav>
+            </div>
+            <aside class="col-md-4 col-lg-3 col-md-pull-8 col-lg-pull-9">
+              <div class="sidebar">
+                <div class="block clearfix">
+                  <h3 class="title">活动回顾</h3>
+                  <div class="separator-2"></div>
+                  <div class="owl-carousel content-slider-with-large-controls-autoplay dark-controls light-gray-bg buttons-hide">
+                    <stl:contents channelIndex="新闻动态" totalNum="5" isRecommend="true" order="AddDate">
+                      <div class="image-box style-2">
+                        <div class="overlay-container overlay-visible">
+                          <img src="{Content.ImageUrl}" alt="{Content.ImageUrl}">
+                          <div class="overlay-bottom">
+                            <div class="text">
+                              <p class="lead margin-clear text-left mobile-visible"></p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="body padding-horizontal-clear">
+                          <p><stl:content type="Summary" wordNum="35" ellipsis="..."></stl:content></p>
+                          <stl:a class="link-dark">更多<i class="pl-5 fa fa-angle-double-right"></i></stl:a>
+                        </div>
+                      </div>
+                    </stl:contents>
+                  </div>
+                </div>
+                <div class="block clearfix">
+                  <h3 class="title">最新动态</h3>
+                  <div class="separator-2"></div>
+                  <stl:contents channelIndex="新闻动态" isRecommend="false" totalNum="5" order="AddDate">
+                    <div class="media margin-clear">
+                      <div class="media-left">
+                        <div class="overlay-container">
+                          <img class="media-object" src="{Content.ImageUrl}" alt="{Content.ImageUrl}">
+                          <stl:a class="overlay-link small"><i class="fa fa-link"></i></stl:a>
+                        </div>
+                      </div>
+                      <div class="media-body">
+                        <h6 class="media-heading"><stl:a><stl:content type="Title" wordNum="35" ellipsis="..."></stl:content></stl:a></h6>
+                        <p class="small margin-clear"><i class="fa fa-calendar pr-10"></i><stl:content type="AddDate" formatString="yyyy/MM/dd"></stl:content></p>
+                      </div>
+                      <hr>
+                    </div>
+                  </stl:contents>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <div class="dark-bg  default-hovered footer-top animated-text">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12"><div class="call-to-action text-center"><div class="row"><div class="col-sm-8"></div><div class="col-sm-4"></div></div></div></div>
+          </div>
+        </div>
+      </div>
+      <stl:include file="/include/footer.html"></stl:include>
+    </div>
+    <stl:include file="/include/js.html"></stl:include>
+  </body>
+</html>

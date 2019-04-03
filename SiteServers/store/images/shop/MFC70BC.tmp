@@ -1,0 +1,349 @@
+/* CSS Document */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,p,blockquote,th,td,figure{margin:0;padding:0;}
+ li{list-style-type:none}
+  ul{margin:0px;padding:0px}
+ img{border:0px;}
+ a{text-decoration:none;color:#333}
+ a:hover{text-decoration:underline}
+body{ font-family:Arial, Helvetica, sans-serif,SimSun;font-size:12px;}
+body a:hover{color:#e00;}
+h4{font-size:15px;color:#333;}
+.l{ float:left}
+.r{ float:right}
+.clear{ clear:both;}
+.blank10{height:10px; overflow:hidden}
+.daohang{ line-height:30px;font-size:12px;color:#666;padding-left:8px; }
+.daohang a{margin:6px;color:#0063c8}
+del{ text-decoration:none; padding:0px;margin:0px;}
+.hide{ display:none}
+
+
+.wrap{ background:#f1f1f1;}
+em{ font-style:normal}
+.mainbox{width:1190px;margin:0 auto;}
+.blank15{ clear:both; height:15px; overflow:hidden}
+.shopnav{width:100%; font-family:"\5FAE\8F6F\96C5\9ED1"; height:35px; overflow:hidden; background:#ce3232; line-height:35px;}
+.shopnav ul{width:1190px;margin:0 auto;}
+.shopnav ul li{ float:left;}
+.shopnav ul li a{color:#fff;font-size:16px; padding:0px 40px; float:left; position:relative;}
+.shopnav ul li a.helpbtn{ cursor:help}
+.shopnav ul li.curr{ background:#e44747;}
+.shopnav ul li.curr a{color:#fff}
+.shopnav ul li.curr a:hover{ background:none}
+.shopnav ul li.gwcnum{width:200px; float:right;;}
+.shopnav a:hover{color:#fff; background:#e44747; text-decoration:none}
+
+
+.shopmain01{width:1190px;margin:0 auto;padding-top:15px;}
+.shopmain01 a:hover{color:#c12626}
+.shopmain01 .left{width:210px; float:left; position:relative; height:420px;background:#fff; position:relative;border-bottom:2px solid #e7e7e7;}
+.shopmain01 .left .shopfltit{width:35px; height:35px; background:#e44747 url(shopfl.png) no-repeat 50% 50%; position:absolute; text-indent:-999999px;margin-left:-35px; z-index:1999999999;}
+.shopmain01 .left ul{ padding:0px 15px;}
+.shopmain01 .left ul li{ padding:12px 0px;border-top:1px dashed #ddd;}
+.shopmain01 .left ul li a.title1{font-size:16px;color:#333;font-family:"\5FAE\8F6F\96C5\9ED1"; background:url(icon.png) no-repeat 2px -6px; height:22px; display:block; line-height:22px; padding-left:35px}
+.shopmain01 .left ul li a.title2{font-size:16px;color:#333;font-family:"\5FAE\8F6F\96C5\9ED1"; background:url(icon.png) no-repeat 0px -56px; height:22px; display:block; line-height:22px; padding-left:35px}
+.shopmain01 .left ul li a.title3{font-size:16px;color:#333;font-family:"\5FAE\8F6F\96C5\9ED1"; background:url(icon.png) no-repeat 0px -109px; height:22px; display:block; line-height:22px; padding-left:35px}
+.shopmain01 .left ul li a.title4{font-size:16px;color:#333;font-family:"\5FAE\8F6F\96C5\9ED1"; background:url(icon.png) no-repeat -2px -159px; height:22px; display:block; line-height:22px; padding-left:35px}
+.shopmain01 .left ul li a.title5{font-size:16px;color:#333;font-family:"\5FAE\8F6F\96C5\9ED1"; background:url(icon.png) no-repeat -2px -207px; height:22px; display:block; line-height:22px; padding-left:35px}
+.shopmain01 .left ul li a.title6{font-size:16px;color:#333;font-family:"\5FAE\8F6F\96C5\9ED1"; background:url(icon.png) no-repeat -2px -255px; height:22px; display:block; line-height:22px; padding-left:35px}
+.shopmain01 .left ul li a.title7{font-size:16px;color:#333;font-family:"\5FAE\8F6F\96C5\9ED1"; background:url(icon.png) no-repeat -2px -304px; height:22px; display:block; line-height:22px; padding-left:35px}
+
+.shopmain01 .left ul li .ejlmbox{ padding-top:8px; line-height:20px;}
+.shopmain01 .left ul li .ejlmbox a{color:#999; padding-right:10px;}
+.shopmain01 .left ul li .ejlmbox a.hrefcolor{color:#ce3232}
+.shopmain01 .center{width:780px; float:left;border-bottom:2px solid #e7e7e7;}
+.shopmain01 .right{width:170px; float:right; background:#fff; height:420px; padding:0px 15px;border-bottom:2px solid #e7e7e7;}
+.shopmain01 .right ul li{margin-bottom:9px;border:4px solid #fff;}
+.shopmain01 .right ul li img{width:100%; height:90px;}
+.shopmain01 .right ul li.curr{border:4px solid #e44747}
+
+
+.titbox{ height:35px; background:#f1f1f1;border-bottom:3px solid #e44747;}
+.titbox span{ float:right; line-height:35px;}
+.titbox span a{color:#999; padding:0px 8px}
+.titbox span a.more{ background:#ef9191;color:#fff; padding:1px 6px;}
+.titbox img{margin-top:5px}
+
+.shopmain02{ width:1190px;margin:0 auto;margin-top:15px;}
+.shopmain02 dl{border-left:1px solid #e5e5e5;}
+.shopmain02 dl dt{width:105px; float:left; text-align:center; height:49px; background:#fff; padding:15px; margin:15px 0px 0px 15px;border-bottom:2px solid #e7e7e7}
+.shopmain02 dl dt img{width:90px;height:45px;}
+.shopmain02 dl dt a:hover{ text-decoration:none;}
+.shopmain02 dl dt .title{ height:24px; line-height:24px; background:url(pptitle.png); position:relative;margin-top:-24px}
+.shopmain02 dl dt:hover .title{background:url(pptitle02.png);color:#fff;}
+
+.shopmain02 ul li{width:196px; float:left;margin:15px 0px 0px 15px; padding:15px;background:#fff; display:inline; line-height:20px;border-bottom:2px solid #e7e7e7;}
+.shopmain02 ul li img{width:160px;height:160px;margin:0 auto; display:block;}
+.shopmain02 ul li .title{margin-top:15px}
+.shopmain02 ul li .title font{color:#e00;font-size:16px;font-family:"\5FAE\8F6F\96C5\9ED1"; display:block; padding-top:5px}
+
+
+.shopmain03{ width:1190px;margin:0 auto;margin-top:15px;}
+.shopmain03 ul li{width:196px; float:left;margin:15px 0px 0px 15px; padding:15px 15px 11px 15px;background:#fff; display:inline; line-height:20px;border-bottom:2px solid #e7e7e7;}
+.shopmain03 ul li .hotbg{width:48px;height:48px;background:url(sale.png) no-repeat; position:absolute; z-index:100; }
+.shopmain03 ul li img{width:160px;height:160px;margin:0 auto; display:block;}
+.shopmain03 ul li font{color:#e00; line-height:30px;font-size:16px;font-family:"\5FAE\8F6F\96C5\9ED1";}
+.shopmain03 ul li em{color:#999; text-decoration:line-through;padding-left:10px;font-family:"\5FAE\8F6F\96C5\9ED1"; display:none}
+.shopmain03 ul li .title{ height:20px; overflow:hidden}
+
+
+.shopmain04{ width:1190px;margin:0 auto;margin-top:15px;}
+.shopmain04 ul li{width:196px; float:left;margin:15px 0px 0px 15px; padding:15px;background:#fff; height:215px; overflow:hidden; display:inline; line-height:20px;border-bottom:2px solid #e7e7e7;}
+.shopmain04 ul li img{width:160px;height:160px;margin:0 auto; display:block; margin-bottom:15px}
+.shopmain04 ul li font{color:#e00;font-size:16px; line-height:24px;font-family:"\5FAE\8F6F\96C5\9ED1";}
+.shopmain04 ul li a{color:#333;}
+.shopmain04 ul li a:hover{color:#c12626}
+.shopmain04 ul li.libanner{ padding:0px;width:225px; height:245px;margin-left:15px;}
+.shopmain04 ul li.libanner img{width:100%; height:100%;}
+
+
+
+
+/*ÇÀ¹º*/
+.qgtit{height:70px;background:url(ibg.png); line-height:26px;font-family:"\5FAE\8F6F\96C5\9ED1";}
+.qgtit .idx{width:1190px;margin:0 auto;background:url(tuan02.png) no-repeat 100% 50%;height:100%}
+.qgtit .idx .hottb{width:25px;height:15px;background:url(hot02.png) no-repeat; position:absolute;top:-5px; left:150px}
+.qgtit .idx a{ float:left;width:200px; font-size:19px;color:#fff;font-weight:bold;background:;color:#666;padding-top:10px;height:60px; position:relative;}
+.qgtit .idx a img{float:left;margin:6px 15px 10px 35px}
+.qgtit .idx a.curr{width:200px;background:url(ibg02.png);padding-left:0px;color:#fff;}
+.qgtit .idx a em{font-size:12px;font-weight:normal}
+.panic{ clear:both;width:980px;margin:0 auto;margin-top:15px;}
+.panic ul li{width:303px; float:left;color:#aaa;margin:13px 0px 0px 13px;padding:7px;}
+.panic ul li .new{width:50px;height:50px;background:url(new02.png) no-repeat; position:absolute;margin-left:254px}
+.panic ul li img.imgdx{width:100%;height:400px;}
+.panic ul li:hover{background:#111;}
+.panic ul li .libox{background:url(flsbg.png);height:50px; position:relative;padding:10px;margin-top:-70px;}
+.panic ul li .libox .titlebg a{font-size:17px;color:#d1d1d1; line-height:26px;font-weight:bold}
+.panic ul li .libox .titlebg a:hover{color:#ccc; text-decoration:none}
+.panic ul li .libox .jgbox{padding:5px 10px 0px 0px; line-height:22px }
+.panic ul li .libox .jgbox font{color:#DA5C4F;font-size:14px; font-family:Arial, Helvetica, sans-serif;}
+.panic ul li .libox .jgbox em{color:#999;padding-left:10px;font-size:12px; text-decoration:line-through; font-style:normal}
+.panic ul li .libox .jgbox .r{background:url(timebg.png) no-repeat 0 50%;padding-left:22px}
+
+.panicyg{width:980px;margin:0 auto;margin-top:20px;padding-bottom:15px;}
+.panicyg dl{height:40px; line-height:40px;background:url(ibg.png);border-bottom:2px solid #F40A49}
+.panicyg dl dt span{font-weight:normal;color:#666;padding-left:10px}
+.panicyg dl dt{ float:left;color:#fff;padding:0px 27px}
+.panicyg dl dt.tit{font-size:19px;font-weight:bold;padding:0px 20px}
+.panicyg dl dt.sd01{background:#F40A49}
+.panicyg ul li{width:260px;margin:20px 20px 0px 20px;padding-right:20px; float:left;padding:10px}
+.panicyg ul li:hover{background:#111}
+.panicyg ul li img{wdith:120px;height:75px;}
+.panicyg ul li .r_ct{width:130px; float:right;color:#666;font-weight:bold; line-height:20px;}
+.panicyg ul li .r_ct span{font-size:21px;color:#ccc; font-family:Arial, Helvetica, sans-serif; line-height:30px;font-weight:normal}
+/*ÇÀ¹º½áÊø*/
+
+/*ÇÀ¹ºÄÚÈÝÒ³*/
+.panic_buying{width:960px;margin:0 auto;padding:10px; background:#fff;}
+.panic_buying .box01 .left{float:left;width:330px; height:405px}
+.panic_buying .box01 .right{float:right;width:615px; line-height:28px;color:#555}
+.panic_buying .box01 .right .title{font-size:21px;padding:5px 0px; line-height:30px;font-weight:bold}
+.panic_buying .box01 .right .qg_intro{background:#eee;padding:10px 12px;margin-top:10px;color:#757575;font-weight:bold;font-size:16px; height:251px}
+.panic_buying .box01 .right .qg_intro h4{font-size:16px;color:#555;}
+.panic_buying .box01 .right ul li{width:50%; float:left}
+.panic_buying .box02{margin-top:5px}
+.panic_buying .box02 h4{ height:40px; line-height:40px; background:#eee url(szbg.png) no-repeat 5px 5px;padding-left:45px}
+.panic_buying .box02 h4 span{color:#0675b5;padding-right:5px}
+.panic_buying .box02 ul li{width:157px; float:left;padding:10px;margin:15px 15px 0px 0px; height:215px;border:1px solid #e5e5e5; display:inline}
+.panic_buying .box02 ul li img{width:100%;height:145px;margin-bottom:5px;}
+.panic_buying .box02 ul li font{color:#e00;font-weight:bold; line-height:30px;font-size:13px}
+.panic_buying .box02 ul li em{color:#999; text-decoration:line-through;padding-left:10px;}
+.panic_buying .box02 ul li a{color:#333;}
+.panic_buying .box02 ul li a:hover{background:#2193D8;color:#fff; text-decoration:none}
+
+/*ÇÀ¹ºÄÚÈÝÒ³½áÊø*/
+
+
+
+/*ÍÅ¹º*/
+.cityqh{ font-size:17px;font-weight:bold; position:absolute;top:-95px;left:200px;font-family:"\5FAE\8F6F\96C5\9ED1";}
+.cityqh a{padding-left:5px;font-weight:normal;color:#666;}
+
+.tuanbox{width:1190px;margin:0 auto;margin-top:15px;background:#fff;padding-bottom:5px;border-bottom:2px solid #e7e7e7}
+.tuanbox h4{ height:38px;background:url(tuanbg01.png) no-repeat;padding-left:15px; line-height:30px;color:#fff;margin-top:5px;font-size:16px; position:relative;margin-left:-10px;}
+.tuanbox ul{padding:0px 15px 10px 15px;}
+.tuanbox ul li{ clear:both;line-height:20px;padding:5px 0px 25px 5px;border-bottom:1px dashed #ddd;font-family:"\5FAE\8F6F\96C5\9ED1";}
+.tuanbox ul li a{padding:0px 5px;color:#666;border:1px solid #ddd; float:left;margin:10px 5px 0px 0px; height:20px;}
+.tuanbox ul li span{ float:left;font-size:14px; margin-right:5px;padding-top:10px;}
+.tuanbox ul li font{font-size:12px;}
+.tuanbox ul li a.curr{background:#ef5959;color:#fff;border:1px solid #c82323;font-weight:bold;}
+.tuanbox ul li a:hover{background:#ef5959;color:#fff; text-decoration:none;border:1px solid #c82323}
+
+
+.tuantit{width:1190px;margin:0 auto;height:35px; line-height:33px;margin-top:15px;border-bottom:2px solid #ce3232; font-family:"\5FAE\8F6F\96C5\9ED1";}
+.tuantit h4{ float:left;font-weight:normal;border:2px solid #f1f1f1;border-bottom:0px;}
+.tuantit h4 a{font-size:17px;padding:0px 60px;color:#888;font-weight:bold}
+.tuantit h4.curr{border:2px solid #ce3232;border-bottom:0px;background:#fff; height:35px;}
+.tuantit h4.curr a{color:#333;}
+.tuantit .r a{padding:0px 8px; line-height:22px;font-size:12px; height:22px;background:url(shopbg1.png) repeat-x; float:left;color:#333;border:1px solid #ccc; position:relative;margin-left:-1px}
+.tuantit .r a img{padding-left:2px;}
+.tuantit .r a.curr{background:url(shopbg2.png) repeat-x;margin-right:0px;}
+
+
+.wqtgcontent{width:1190px;margin:0 auto;font-family:"\5FAE\8F6F\96C5\9ED1";}
+.wqtgcontent ul li{width:370px; float:left;border:2px solid #f1f1f1;border-bottom:2px solid #e7e7e7; position:relative; margin:30px 0px 0px 30px;background:#fcfcfc}
+.wqtgcontent ul li .li_newbg{width:65px;height:60px;background:url(newbg.png) no-repeat; position:absolute;margin:-2px 0px 0px -2px;}
+.wqtgcontent ul li .li_overbg{width:65px;height:60px;background:url(tuanover.png) no-repeat; position:absolute;margin:-2px 0px 0px -2px;}
+.wqtgcontent ul li h2{padding:10px; height:50px; overflow:hidden}
+.wqtgcontent ul li h2 a{padding:5px;font-size:17px;font-weight:normal; line-height:26px}
+.wqtgcontent ul li:hover{ border:2px solid #f5b7b7;z-index:9999}
+.wqtgcontent ul li a:hover{color:#e00;}
+.wqtgcontent ul li .tgimg{padding-top:15px; text-align:center}
+.wqtgcontent ul li .tgimg img{width:320px; height:195px;}
+.wqtgcontent ul li .pricebox{padding:15px 10px 0px 10px;border-top:1px solid #e5e5e5}
+.wqtgcontent ul li .pricebox .l{ line-height:60px;color:#666;width:80px;}
+.wqtgcontent ul li .pricebox .price{ float:left;border-left:1px solid #ddd;padding-left:10px;}
+.wqtgcontent ul li .pricebox .price font{font-size:21px;color:#e00;font-weight:bold; }
+.wqtgcontent ul li .pricebox .price em{ text-decoration:line-through;color:#999}
+
+
+.tgnrmain{width:980px;margin:0 auto;margin-top:5px;}
+.tgnrmain .tgnrmain_l{width:722px; float:left;}
+.tgnrmain .tgnrmain_l .l_one{border:1px solid #ddd;background:#fff;padding-bottom:10px;}
+.tgnrmain .tgnrmain_l .l_one h1{font-size:17px;padding:10px 15px 15px 15px; line-height:25px;font-weight:normal;}
+.tgnrmain .tgnrmain_l .l_one .left{width:210px; float:left;padding:15px 15px 15px 15px;margin-left:15px;background:#f5f5f5;border:1px solid #e5e5e5}
+.tgnrmain .tgnrmain_l .l_one .left .tg_zk{width:60px;height:44px;background:url(tuanbg04.png) no-repeat;padding-left:10px; line-height:26px;color:#fff; position:absolute; font-family:Arial, Helvetica, sans-serif;margin:-16px 0px 0px -16px}
+.tgnrmain .tgnrmain_l .l_one .left .price{font-size:32px; text-align:center;color:#e00}
+.tgnrmain .tgnrmain_l .l_one .left .pricebox{ text-align:center;font-size:13px;height:35px; line-height:24px;color:#666;}
+.tgnrmain .tgnrmain_l .l_one .left .pricebox span em{ text-decoration:line-through;font-weight:bold;padding:0px 10px 0px 5px;}
+.tgnrmain .tgnrmain_l .l_one .left .buybtn a{width:150px; height:44px; display:block; background:url(tgbtn.png) no-repeat;margin-left:20px}
+.tgnrmain .tgnrmain_l .l_one .left .buybtn a:hover{ text-decoration:none}
+.tgnrmain .tgnrmain_l .l_one .left .buynum{ height:30px; line-height:30px;color:#666;text-align:center}
+.tgnrmain .tgnrmain_l .l_one .left .tgpeople{color:#666;}
+.tgnrmain .tgnrmain_l .l_one .left .tgpeople span.date{height:30px; line-height:30px; display:block;border-top:1px solid #ddd;margin-top:10px;}
+.tgnrmain .tgnrmain_l .l_one .left .tgtime{height:30px; line-height:20px;padding-top:8px;background:url(timebg02.png) no-repeat 0 50%;padding-left:20px;}
+.tgnrmain .tgnrmain_l .l_one .right{width:433px; float:right;padding:0px 15px}
+.tgnrmain .tgnrmain_l .l_one .right img{width:100%; }
+.tgnrmain .tgnrmain_l .l_two{background:#fff;border:1px solid #ddd;margin-top:15px;padding-bottom:5px}
+.tgnrmain .tgnrmain_l .l_two dl{height:38px; line-height:37px;background:url(tuanbg11.png) repeat-x}
+.tgnrmain .tgnrmain_l .l_two dl dt{ float:left;width:100px;height:37px; text-align:center;font-size:15px;border-right:1px solid #ddd;border-left:1px solid #ff; cursor:hand}
+.tgnrmain .tgnrmain_l .l_two dl dt.sd01{background:#fff; height:38px;font-weight:bold}
+.tgnrmain .tgnrmain_l .l_two dl dt.tit{border-right:0px}
+.tgnrmain .tgnrmain_l .l_two .ltwobox{padding:10px 15px;color:#666; line-height:24px;font-size:12px}
+.tgnrmain .tgnrmain_r{width:245px; float:right;}
+.tgnrmain .tgnrmain_r .r_one{background:#fff url(tuanbg10.png) no-repeat 50% 12px;height:140px;border:1px solid #ddd;}
+.tgnrmain .tgnrmain_r .r_two{background:#fff;height:200px;color:#666;margin-top:15px;border:1px solid #ddd;}
+.tgnrmain .tgnrmain_r .r_three{background:#fff;margin-top:15px;border:1px solid #ddd}
+.tgnrmain .tgnrmain_r .r_three h4{padding:0px 15px;height:45px; line-height:40px}
+.tgnrmain .tgnrmain_r .r_three ul{padding:0px 15px 0px 15px;}
+.tgnrmain .tgnrmain_r .r_three ul li{ clear:both;height:100px;padding-top:5px}
+.tgnrmain .tgnrmain_r .r_three ul li span{background:#1199c9;padding:0px 5px;color:#fff;margin-right:5px}
+.tgnrmain .tgnrmain_r .r_three ul li .libox{padding-top:10px; }
+.tgnrmain .tgnrmain_r .r_three ul li .libox img{width:100px; height:60px}
+.tgnrmain .tgnrmain_r .r_three ul li .libox .r_ct{width:100px; float:right;padding-top:16px; line-height:20px;color:#888;}
+.tgnrmain .tgnrmain_r .r_three ul li .libox .r_ct font{font-size:13px;font-weight:bold;color:#e00}
+.tgnrmain .tgnrmain_r .r_three ul li .libox .r_ct b{color:#333;padding:0px 2px}
+/*ÍÅ¹º½áÊø*/
+
+
+
+/*Æ·ÅÆ*/
+
+.brandbox{width:1190px;margin:0 auto;}
+.brandbox .brandbox_l{width:945px; float:left;background:#fff; padding-top:15px; height:420px;}
+.brandbox .brandbox_l ul li{width:104px; float:left; text-align:center;margin:10px; height:78px;border:1px solid #e5e5e5;background:#fff;padding:10px; line-height:20px; display:inline;}
+.brandbox .brandbox_l ul li img{width:100px;height:50px;margin-bottom:7px}
+.brandbox .brandbox_l ul li a{font-size:14px;}
+.brandbox .brandbox_l ul li .brandname em{padding:0px 5px;color:#333;border:1px solid #e5e5e5;font-size:11px}
+.brandbox .brandbox_l ul li:hover{border:1px solid #8CBCDE}
+.brandbox .brandbox_l ul li a .brandinto{ display:none}
+.brandbox .brandbox_l ul li a:hover .brandinto{ display:block; position:absolute;background:#FFF9E1;padding:10px 15px;color:#666; text-align:left;width:280px;border:2px solid #FCC686; text-decoration:none;font-size:13px; line-height:22px;margin-top:-60px;*+margin-top:0px;_margin-top:0px;margin-left:105px;*+margin-left:0px;_margin-left:0px}
+.brandbox .brandbox_l ul li a:hover .brandinto .jiaobg{width:7px;height:9px;background:url(jiao.gif) no-repeat; position:absolute;left:-7px;top:15%}
+
+.brandbox .brandbox_l ul li a .brandinto02{ display:none}
+.brandbox .brandbox_l ul li a:hover .brandinto02{ display:block; position:absolute;background:#FFF9E1;padding:10px 15px;color:#666; text-align:left;width:280px;border:2px solid #FCC686; text-decoration:none;font-size:13px; line-height:22px;margin-left:-315px;*+margin-left:-415px;_margin-left:-415px;margin-top:-60px;*+margin-top:0px;_margin-top:0px }
+.brandbox .brandbox_l ul li a:hover .brandinto02 .jiaobg{width:7px;height:9px;background:url(jiao02.gif) no-repeat; position:absolute;right:-7px;top:15%}
+
+.brandbox .brandbox_r{width:200px; float:right;font-family:"\5FAE\8F6F\96C5\9ED1";background:#fce0e0;padding:10px 20px 0px 25px; height:425px}
+.brandbox .brandbox_r h4{padding-top:10px;height:35px;font-size:17px;background:url(pptit.png) no-repeat 5px 50%;padding-left:15px;color:#444;}
+.brandbox .brandbox_r a{ padding:2px 10px;font-size:14px;height:35px; line-height:35px;border:1px solid #eac2c2;font-weight:bold}
+.brandbox .brandbox_r a:hover{background:#df6060;color:#fff;border:1px solid #df6060}
+
+.brandpage{padding:15px 15px 0px 0px; float:right}
+
+.ppxx{width:960px;margin:0 auto;color:#666;background:#fff;font-size:12px; line-height:26px;padding:10px;}
+.ppxx span{padding-right:10px;color:#c00; font-size:17px;font-weight:bold;}
+.ppxx em{font-weight:bold; position:absolute;width:900px}
+.ppxx img.xximg{margin:0px 15px 0px 2px;border:3px solid #ccc; height:44px}
+.ppleft{width:735px; float:left;margin-top:15px;background:#fff;font-size:12px; line-height:24px; font-family:SimSun; line-height:24px}
+.ppleft h4{padding:10px 0px 0px 10px}
+.ppleft ul li{width:203px; float:left;margin:20px 5px 5px 20px;}
+.ppleft ul li img{ display:block;width:100%; margin-bottom:8px;}
+.ppleft ul li a{color:#0b73bc; font-family:SimSun;}
+.ppleft ul li .jg font{color:#e00;font-size:12px; line-height:30px;font-weight:bold}
+.ppleft ul li .jg em{ text-decoration:line-through; line-height:30px;padding-left:5px;color:#999}
+
+.ppright{width:230px; float:right}
+.ppright .r_one{background:#fff;margin-top:15px; height:253px}
+.ppright .r_one h4{font-size:17px;padding:10px 0px 0px 15px;}
+.ppright .r_one ul li{ float:left}
+.ppright .r_one ul li a{width:99px; float:left; text-align:center;border:1px solid #e5e5e5;margin:10px 0px 0px 10px}
+.ppright .r_one ul li a img{ width:85px; height:40px;}
+.ppright .r_one ul li a:hover{ text-decoration:none}
+.ppright .r_one ul li .litit{ display:none}
+.ppright .r_one ul li a:hover .litit{ display:block; position:absolute;background:#999;width:101px; height:30px; line-height:30px;margin:41px 0px 0px -8px;color:#fff; text-decoration:none; font-family:SimSun;}
+.ppright .r_one ul li a:hover{border:1px solid #999;}
+
+.ppright .r_two{background:#fff;margin-top:15px}
+.ppright .r_two h4{font-size:17px;font-weight:bold;padding:10px 0px 0px 15px}
+.ppright .r_two ul{padding:8px 15px 0px 15px;}
+.ppright .r_two ul li{ clear:both;height:60px;padding-top:5px}
+.ppright .r_two ul li img{width:45px; height:40px;margin-top:3px}
+.ppright .r_two ul li .r_ct{width:143px; float:right; }
+.ppright .r_two ul li font{font-size:12px;font-weight:bold;color:#e00; line-height:24px}
+.ppright .r_two ul li a{color:#0b73bc; font-family:SimSun; line-height:16px}
+.ppright .r_two ul li em{padding-left:5px; text-decoration:line-through;color:#999; line-height:24px}
+
+.ppright .r_three{background:#fff url(telbf.png) no-repeat 15px 50%; height:100px;margin-top:15px}
+
+
+/*Æ·ÅÆ½áÊø*/
+
+
+
+/*ÉÌÆ·À¸Ä¿Ò³*/
+.lmbox{width:1190px;margin:0 auto;margin-top:15px;background:#fff;}
+.lmbox h4{width:160px; height:38px; line-height:30px;background:url(lmtit.png) no-repeat;font-size:16px;color:#fff;padding-left:15px; position:absolute;margin:5px 0px 0px -10px;}
+.lmbox ul{padding:0px 15px 10px 15px;}
+.lmbox ul li{ clear:both;line-height:20px;padding:5px 0px 25px 5px;border-bottom:1px dashed #ddd;font-family:"\5FAE\8F6F\96C5\9ED1";}
+.lmbox ul li a{padding:0px 5px;color:#666;border:1px solid #ddd; float:left;margin:10px 5px 0px 0px; height:20px;}
+.lmbox ul li span{ float:left;font-size:14px; margin-right:5px;padding-top:10px;}
+.lmbox ul li font{font-size:12px;}
+.lmbox ul li a.curr{background:#ef5959;color:#fff;border:1px solid #c82323;font-weight:bold;}
+.lmbox ul li a:hover{background:#ef5959;color:#fff; text-decoration:none;border:1px solid #c82323}
+
+.lmbox .lm_sxbox{ float:right;margin:0px 15px 15px 0px; line-height:40px;font-weight:bold}
+.lmbox .lm_sxbox .shoptext{width:170px;border:1px solid #d7d7d7; height:26px; line-height:26px;padding-left:5px;color:#999; float:left;border-right:0px;font-family:"\5FAE\8F6F\96C5\9ED1";margin-left:10px;margin-top:6px;} 
+.lmbox .lm_sxbox .shopbtn{width:30px; height:28px; background:url(../sc.png) no-repeat; text-indent:-9999px;border:0px;color:#fff; cursor:hand; float:left;margin-top:6px;}
+
+.lmmain{width:980px; margin:0 auto; background:#fff;margin-top:15px; padding-bottom:15px}
+.lmmain .lmtitle{ height:30px;background:#fff; line-height:30px;border-bottom:1px solid #aaa}
+.lmmain .lmtitle h4{border:1px solid #aaa;border-top:2px solid #5db7d1;border-bottom:0px;padding:0px 25px 0px 15px;background:#fff; position:relative; height:29px;font-size:16px}
+.lmmain .lmtitle .r{ padding-right:10px}
+.lmmain .lmtitle .r a{border:1px solid #ddd; float:left;padding:0px 6px; height:20px; line-height:20px;margin:4px -1px 0px 0px;}
+.lmmain .lmtitle .r a.curr{background:#999;border:1px solid #777;color:#fff;margin-right:0px}
+
+.lmmain .lmmain_l{width:740px; float:left;}
+.lmmain .lmmain_l ul li{width:148px; float:left;padding:10px;margin:15px 0px 0px 15px; height:215px;border:1px solid #e5e5e5; display:inline}
+.lmmain .lmmain_l ul li img{width:100%;height:145px;margin-bottom:5px;}
+.lmmain .lmmain_l ul li font{color:#e00;font-weight:bold; line-height:30px;font-size:13px}
+.lmmain .lmmain_l ul li em{color:#999; text-decoration:line-through;padding-left:10px;}
+.lmmain .lmmain_l ul li a{color:#333;}
+.lmmain .lmmain_l ul li a:hover{background:#2193D8;color:#fff; text-decoration:none}
+.lmmain .lmmain_r{width:217px; float:right;margin-right:10px; display:inline}
+.lmmain .lmmain_r .r_one{margin-top:15px; height:238px;background:#f2f2f2}
+.lmmain .lmmain_r .r_one h4{margin:0px 10px; height:30px; line-height:30px;border-bottom:1px solid #ddd;font-size:16px;}
+.lmmain .lmmain_r .r_one ul{padding:5px 10px 0px 10px;}
+.lmmain .lmmain_r .r_one ul li{ clear:both;height:60px;padding-top:5px}
+.lmmain .lmmain_r .r_one ul li img{width:50px; height:40px;margin-top:3px}
+.lmmain .lmmain_r .r_one ul li .r_ct{width:135px; float:right; }
+.lmmain .lmmain_r .r_one ul li font{font-size:12px;font-weight:bold;color:#e00; line-height:24px}
+.lmmain .lmmain_r .r_one ul li a{color:#0b73bc; font-family:SimSun; line-height:16px}
+.lmmain .lmmain_r .r_one ul li em{padding-left:5px; text-decoration:line-through;color:#999; line-height:24px}
+
+.lmmain .lmmain_r .r_two{margin-top:15px;background:#f2f2f2; height:100%}
+.lmmain .lmmain_r .r_two h4{margin:0px 10px; height:30px; line-height:30px;border-bottom:1px solid #ddd;font-size:16px;}
+.lmmain .lmmain_r .r_two h4 span{background:#e00;padding:0px 5px;color:#fff;margin-right:5px;}
+.lmmain .lmmain_r .r_two ul{padding:10px}
+.lmmain .lmmain_r .r_two ul li{ height:24px; line-height:24px}
+.lmmain .lmmain_r .r_two ul li span{ background:#aaa; width:15px; float:left; text-align:center; height:15px; line-height:15px;color:#fff;margin:5px 5px 0px 0px; font                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

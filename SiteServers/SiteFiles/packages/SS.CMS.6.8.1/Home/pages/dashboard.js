@@ -1,0 +1,1 @@
+new Vue({el:"#main",data:{pageUser:null,pageConfig:null},methods:{load:function(e,a){this.pageUser=e,this.pageConfig=a}},created:function(){var e=this;utils.getConfig("dashboard",function(a){a.value?e.load(a.value,a.config):utils.redirectLogin()})}});
